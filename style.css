@@ -86,3 +86,123 @@
     font-size: 22px;
     color: #444;
 }
+
+.section h1{
+    text-align: center;
+    margin: 50px auto;
+    font-size: 40px;
+    color: black;
+    padding: 30px 0 10px;
+}
+.section-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    gap: 20px;
+    padding: 10px;
+    margin: 30px auto;
+}
+.section1{
+    padding: 10px;
+    margin: 10px 25px;
+}
+.section1 img{
+    align-items: center;
+    padding: 10px;
+    margin: 20px 0;
+}
+.section1 h1{
+    font-size: 35px;
+    color: black;
+    margin: 10px 0;
+    text-align: center;
+}
+.section1 p{
+    text-align: center;
+    font-size: 18px;
+    color: #555;
+    margin: 6px 0;
+}
+
+.div-watch{
+    width: 80%;
+    height: 350px;
+    background-image: url("images/watch.png");
+    background-position: center;
+    background-size: cover;
+    padding: 10px;
+    margin: 50px auto;
+    border: 0;
+    border-radius: 8px;
+}
+.div-watch h1{
+    font-size: 40px;
+    color: #fff;
+    padding: 10px;
+    margin: 40px 0 10px;
+}
+
+/* footer */
+
+.footer{
+    width: 100%;
+    height: 400px;
+    background: #000;
+    margin-top: 40px;
+}
+.bottom{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding: 10px;
+    margin: 20px auto;
+}
+.bottom1{
+    color: #fff;
+    padding: 10px;
+    margin: 100px;
+    flex: 50%;
+}
+.bottom1 h1{
+    margin: 0 0 10px;
+    font-size: 40px;
+}
+.bottom1 img{
+    margin: 10px;
+}
+.bottom1 p{
+    margin: 8px 0;
+    font-size: 18px;
+    color: #b0aaaa;
+}
+.bottom2{
+    flex: 50%;
+    margin: 100px;
+}
+
+.bottom2 h1{
+    color: #fff;
+    font-size: 28px;
+    margin: 10px 0;
+}
+.bottom2 input{
+    display: block;
+    margin: 10px 0;
+    padding: 14px 40px;
+    font-size: 20px;
+    color: #b0aaaa;
+    border: 0;
+    outline: none;
+    border-radius: 10px;
+}
+.bottom2 button{
+    background-color: rgb(27, 138, 27);
+    color: #fff;
+    margin: 10px 0;
+    padding: 14px 18px;
+    font-size: 20px;
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+}
